@@ -31,6 +31,19 @@ class AlbumFragment:Fragment() {
                 .replace(R.id.main_frm,HomeFragment())
                 .commitAllowingStateLoss()
         }
+
+        val albumAdapter=AlbumVPAdapter(this)
+        binding.albumContentVp.adapter=albumAdapter
+
+        //tab layout과 view pager2 연결하는 중재자
+        //인자값으론 탭레이아웃,view pager를 넣는다.
+        //괄호 안에는 탭레이아웃에 어떤 텍스트가 들어갈지 넣는다.
+        TabLayoutMediator(binding.albumContentTb,binding.albumContentVp){
+            tab, position->
+            tab.text=information[position]//information이라는 배열에 이름을 넣고 순서대로 붙임
+        }.attach() //붙이기
+
+
         return binding.root
     }
 }

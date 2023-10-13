@@ -19,6 +19,14 @@ class LockerFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentLockerBinding.inflate(inflater, container, false)
+
+        val lockerAdapter=LockerVPAdapter(this)
+        binding.lockerContentVp.adapter=lockerAdapter
+        TabLayoutMediator(binding.lockerContentTb,binding.lockerContentVp){
+                tab, position->
+            tab.text=information[position]//information이라는 배열에 이름을 넣고 순서대로 붙임
+        }.attach() //붙이기
+
         return binding.root
     }
 }

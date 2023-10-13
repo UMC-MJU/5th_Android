@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\AndroidStudioProjects\\5th_Android\\Week2flo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "C:\\AndroidStudioProjects\\5th_Android\\Week2flo\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "40",
-                        "endOffsets": "52"
-                    },
-                    "to": {
-                        "startLines": "1196",
-                        "startColumns": "4",
-                        "startOffsets": "69241",
-                        "endColumns": "40",
-                        "endOffsets": "69277"
-                    }
-                },
                 {
                     "source": "C:\\Users\\박승연\\.gradle\\caches\\transforms-3\\14eb1fd898e64f6a1d57db77d98a217f\\transformed\\transition-1.2.0\\res\\values\\values.xml",
                     "from": {
@@ -131,25 +114,6 @@
                     }
                 },
                 {
-                    "source": "C:\\AndroidStudioProjects\\5th_Android\\Week2flo\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "933"
-                    },
-                    "to": {
-                        "startLines": "3930",
-                        "startColumns": "4",
-                        "startOffsets": "257747",
-                        "endLines": "3949",
-                        "endColumns": "12",
-                        "endOffsets": "258580"
-                    }
-                },
-                {
                     "source": "C:\\Users\\박승연\\.gradle\\caches\\transforms-3\\cd57945ef96dad4c37c76755e0c1aa79\\transformed\\recyclerview-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -166,23 +130,6 @@
                         "endLines": "395,751,752,753,761,762,763,1074,8651",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "18747,40845,40893,40949,41635,41711,41783,62044,517905"
-                    }
-                },
-                {
-                    "source": "C:\\AndroidStudioProjects\\5th_Android\\Week2flo\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,12,10,11,16,2,3,4,15,5,6,14,8",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "286,469,371,418,611,55,102,149,564,196,241,516,328",
-                        "endColumns": "41,45,46,50,44,46,46,46,46,44,44,47,41",
-                        "endOffsets": "323,510,413,464,651,97,144,191,606,236,281,559,365"
-                    },
-                    "to": {
-                        "startLines": "495,508,509,510,554,587,588,589,596,601,602,605,606",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "23896,24828,24874,24921,27941,30078,30125,30172,30630,30963,31008,31174,31222",
-                        "endColumns": "41,45,46,50,44,46,46,46,46,44,44,47,41",
-                        "endOffsets": "23933,24869,24916,24967,27981,30120,30167,30214,30672,31003,31048,31217,31259"
                     }
                 },
                 {
@@ -294,6 +241,23 @@
                     }
                 },
                 {
+                    "source": "C:\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "40",
+                        "endOffsets": "52"
+                    },
+                    "to": {
+                        "startLines": "1196",
+                        "startColumns": "4",
+                        "startOffsets": "69241",
+                        "endColumns": "40",
+                        "endOffsets": "69277"
+                    }
+                },
+                {
                     "source": "C:\\Users\\박승연\\.gradle\\caches\\transforms-3\\8c0ddf45465b4d879163ee7fa357f751\\transformed\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -332,6 +296,23 @@
                     }
                 },
                 {
+                    "source": "C:\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,12,10,11,16,2,3,4,15,5,6,14,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "286,469,371,418,611,55,102,149,564,196,241,516,328",
+                        "endColumns": "41,45,46,50,44,46,46,46,46,44,44,47,41",
+                        "endOffsets": "323,510,413,464,651,97,144,191,606,236,281,559,365"
+                    },
+                    "to": {
+                        "startLines": "495,508,509,510,554,587,588,589,596,601,602,605,606",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "23896,24828,24874,24921,27941,30078,30125,30172,30630,30963,31008,31174,31222",
+                        "endColumns": "41,45,46,50,44,46,46,46,46,44,44,47,41",
+                        "endOffsets": "23933,24869,24916,24967,27981,30120,30167,30214,30672,31003,31048,31217,31259"
+                    }
+                },
+                {
                     "source": "C:\\Users\\박승연\\.gradle\\caches\\transforms-3\\34e5e342408f0f7bf753218b4ed42530\\transformed\\fragment-1.3.6\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
@@ -348,6 +329,25 @@
                         "endLines": "1070,1099,1135,7552,7556",
                         "endColumns": "56,64,63,24,24",
                         "endOffsets": "61857,63325,65179,464667,464816"
+                    }
+                },
+                {
+                    "source": "C:\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "933"
+                    },
+                    "to": {
+                        "startLines": "3930",
+                        "startColumns": "4",
+                        "startOffsets": "257747",
+                        "endLines": "3949",
+                        "endColumns": "12",
+                        "endOffsets": "258580"
                     }
                 }
             ]

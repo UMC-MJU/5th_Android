@@ -12,20 +12,25 @@ import androidx.annotation.Nullable;
 import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import androidx.viewpager2.widget.ViewPager2;
 import com.example.flo.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
+import me.relex.circleindicator.CircleIndicator3;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   private final NestedScrollView rootView;
 
   @NonNull
-  public final TextView homeCompanyNameTv;
+  public final ViewPager2 homeBannerVp;
 
   @NonNull
   public final ImageView homeDiscoveryBannerIv;
+
+  @NonNull
+  public final CircleIndicator3 homeIndicator;
 
   @NonNull
   public final ImageView homePannelAlbumImgIv;
@@ -40,7 +45,7 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final TextView homePannelAlbumTitleTv;
 
   @NonNull
-  public final ImageView homePannelBackgroundIv;
+  public final ViewPager2 homePannelBackgroundVp;
 
   @NonNull
   public final ImageView homePannelBtnNuguIv;
@@ -103,7 +108,7 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ImageView homeSnsBtnYoutubeIv;
 
   @NonNull
-  public final LinearLayout homeSnsBtnlayoutLayout;
+  public final LinearLayout homeSnsBtnlayoutLo;
 
   @NonNull
   public final ImageView homeTodayNewMusicAlbum1Iv;
@@ -175,16 +180,13 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final TextView homeVedioCollectionVideoTitle3Tv;
 
   @NonNull
-  public final ImageView homeViewPager1Iv;
-
-  @NonNull
   public final ImageView homeViewPager2Iv;
 
-  private FragmentHomeBinding(@NonNull NestedScrollView rootView,
-      @NonNull TextView homeCompanyNameTv, @NonNull ImageView homeDiscoveryBannerIv,
+  private FragmentHomeBinding(@NonNull NestedScrollView rootView, @NonNull ViewPager2 homeBannerVp,
+      @NonNull ImageView homeDiscoveryBannerIv, @NonNull CircleIndicator3 homeIndicator,
       @NonNull ImageView homePannelAlbumImgIv, @NonNull TextView homePannelAlbumInfoTv,
       @NonNull TextView homePannelAlbumSingerTv, @NonNull TextView homePannelAlbumTitleTv,
-      @NonNull ImageView homePannelBackgroundIv, @NonNull ImageView homePannelBtnNuguIv,
+      @NonNull ViewPager2 homePannelBackgroundVp, @NonNull ImageView homePannelBtnNuguIv,
       @NonNull ImageView homePannelBtnPlayIv, @NonNull ImageView homePannelBtnSettingIv,
       @NonNull ImageView homePannelBtnTicketIv, @NonNull TextView homePannelTitleTv,
       @NonNull ImageView homeRecommendPotcastAlbum1Iv,
@@ -199,7 +201,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       @NonNull NestedScrollView homeRecommendPotcastSv,
       @NonNull TextView homeRecommendPotcastTitleTv, @NonNull ImageView homeSnsBtnFacebookIv,
       @NonNull ImageView homeSnsBtnInstagramIv, @NonNull ImageView homeSnsBtnTwitterIv,
-      @NonNull ImageView homeSnsBtnYoutubeIv, @NonNull LinearLayout homeSnsBtnlayoutLayout,
+      @NonNull ImageView homeSnsBtnYoutubeIv, @NonNull LinearLayout homeSnsBtnlayoutLo,
       @NonNull ImageView homeTodayNewMusicAlbum1Iv, @NonNull ImageView homeTodayNewMusicAlbum2Iv,
       @NonNull ImageView homeTodayNewMusicAlbum3Iv,
       @NonNull TextView homeTodayNewMusicAlbumtSinger1Tv,
@@ -220,16 +222,16 @@ public final class FragmentHomeBinding implements ViewBinding {
       @NonNull TextView homeVedioCollectionVideoSinger3Tv,
       @NonNull TextView homeVedioCollectionVideoTitle1Tv,
       @NonNull TextView homeVedioCollectionVideoTitle2Tv,
-      @NonNull TextView homeVedioCollectionVideoTitle3Tv, @NonNull ImageView homeViewPager1Iv,
-      @NonNull ImageView homeViewPager2Iv) {
+      @NonNull TextView homeVedioCollectionVideoTitle3Tv, @NonNull ImageView homeViewPager2Iv) {
     this.rootView = rootView;
-    this.homeCompanyNameTv = homeCompanyNameTv;
+    this.homeBannerVp = homeBannerVp;
     this.homeDiscoveryBannerIv = homeDiscoveryBannerIv;
+    this.homeIndicator = homeIndicator;
     this.homePannelAlbumImgIv = homePannelAlbumImgIv;
     this.homePannelAlbumInfoTv = homePannelAlbumInfoTv;
     this.homePannelAlbumSingerTv = homePannelAlbumSingerTv;
     this.homePannelAlbumTitleTv = homePannelAlbumTitleTv;
-    this.homePannelBackgroundIv = homePannelBackgroundIv;
+    this.homePannelBackgroundVp = homePannelBackgroundVp;
     this.homePannelBtnNuguIv = homePannelBtnNuguIv;
     this.homePannelBtnPlayIv = homePannelBtnPlayIv;
     this.homePannelBtnSettingIv = homePannelBtnSettingIv;
@@ -250,7 +252,7 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.homeSnsBtnInstagramIv = homeSnsBtnInstagramIv;
     this.homeSnsBtnTwitterIv = homeSnsBtnTwitterIv;
     this.homeSnsBtnYoutubeIv = homeSnsBtnYoutubeIv;
-    this.homeSnsBtnlayoutLayout = homeSnsBtnlayoutLayout;
+    this.homeSnsBtnlayoutLo = homeSnsBtnlayoutLo;
     this.homeTodayNewMusicAlbum1Iv = homeTodayNewMusicAlbum1Iv;
     this.homeTodayNewMusicAlbum2Iv = homeTodayNewMusicAlbum2Iv;
     this.homeTodayNewMusicAlbum3Iv = homeTodayNewMusicAlbum3Iv;
@@ -274,7 +276,6 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.homeVedioCollectionVideoTitle1Tv = homeVedioCollectionVideoTitle1Tv;
     this.homeVedioCollectionVideoTitle2Tv = homeVedioCollectionVideoTitle2Tv;
     this.homeVedioCollectionVideoTitle3Tv = homeVedioCollectionVideoTitle3Tv;
-    this.homeViewPager1Iv = homeViewPager1Iv;
     this.homeViewPager2Iv = homeViewPager2Iv;
   }
 
@@ -305,15 +306,21 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.home_companyName_tv;
-      TextView homeCompanyNameTv = ViewBindings.findChildViewById(rootView, id);
-      if (homeCompanyNameTv == null) {
+      id = R.id.home_banner_vp;
+      ViewPager2 homeBannerVp = ViewBindings.findChildViewById(rootView, id);
+      if (homeBannerVp == null) {
         break missingId;
       }
 
       id = R.id.home_discoveryBanner_iv;
       ImageView homeDiscoveryBannerIv = ViewBindings.findChildViewById(rootView, id);
       if (homeDiscoveryBannerIv == null) {
+        break missingId;
+      }
+
+      id = R.id.home_indicator;
+      CircleIndicator3 homeIndicator = ViewBindings.findChildViewById(rootView, id);
+      if (homeIndicator == null) {
         break missingId;
       }
 
@@ -341,9 +348,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.home_pannelBackground_iv;
-      ImageView homePannelBackgroundIv = ViewBindings.findChildViewById(rootView, id);
-      if (homePannelBackgroundIv == null) {
+      id = R.id.home_pannelBackground_vp;
+      ViewPager2 homePannelBackgroundVp = ViewBindings.findChildViewById(rootView, id);
+      if (homePannelBackgroundVp == null) {
         break missingId;
       }
 
@@ -467,9 +474,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.home_snsBtnlayout_layout;
-      LinearLayout homeSnsBtnlayoutLayout = ViewBindings.findChildViewById(rootView, id);
-      if (homeSnsBtnlayoutLayout == null) {
+      id = R.id.home_snsBtnlayout_lo;
+      LinearLayout homeSnsBtnlayoutLo = ViewBindings.findChildViewById(rootView, id);
+      if (homeSnsBtnlayoutLo == null) {
         break missingId;
       }
 
@@ -611,21 +618,15 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.home_viewPager1_iv;
-      ImageView homeViewPager1Iv = ViewBindings.findChildViewById(rootView, id);
-      if (homeViewPager1Iv == null) {
-        break missingId;
-      }
-
       id = R.id.home_viewPager2_iv;
       ImageView homeViewPager2Iv = ViewBindings.findChildViewById(rootView, id);
       if (homeViewPager2Iv == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((NestedScrollView) rootView, homeCompanyNameTv,
-          homeDiscoveryBannerIv, homePannelAlbumImgIv, homePannelAlbumInfoTv,
-          homePannelAlbumSingerTv, homePannelAlbumTitleTv, homePannelBackgroundIv,
+      return new FragmentHomeBinding((NestedScrollView) rootView, homeBannerVp,
+          homeDiscoveryBannerIv, homeIndicator, homePannelAlbumImgIv, homePannelAlbumInfoTv,
+          homePannelAlbumSingerTv, homePannelAlbumTitleTv, homePannelBackgroundVp,
           homePannelBtnNuguIv, homePannelBtnPlayIv, homePannelBtnSettingIv, homePannelBtnTicketIv,
           homePannelTitleTv, homeRecommendPotcastAlbum1Iv, homeRecommendPotcastAlbum2Iv,
           homeRecommendPotcastAlbum3Iv, homeRecommendPotcastAlbumSinger1Iv,
@@ -633,7 +634,7 @@ public final class FragmentHomeBinding implements ViewBinding {
           homeRecommendPotcastAlbumTitle1Iv, homeRecommendPotcastAlbumTitle2Iv,
           homeRecommendPotcastAlbumTitle3Iv, homeRecommendPotcastSv, homeRecommendPotcastTitleTv,
           homeSnsBtnFacebookIv, homeSnsBtnInstagramIv, homeSnsBtnTwitterIv, homeSnsBtnYoutubeIv,
-          homeSnsBtnlayoutLayout, homeTodayNewMusicAlbum1Iv, homeTodayNewMusicAlbum2Iv,
+          homeSnsBtnlayoutLo, homeTodayNewMusicAlbum1Iv, homeTodayNewMusicAlbum2Iv,
           homeTodayNewMusicAlbum3Iv, homeTodayNewMusicAlbumtSinger1Tv,
           homeTodayNewMusicAlbumtSinger2Tv, homeTodayNewMusicAlbumtSinger3Tv,
           homeTodayNewMusicAlbumtTitle1Tv, homeTodayNewMusicAlbumtTitle2Tv,
@@ -643,7 +644,7 @@ public final class FragmentHomeBinding implements ViewBinding {
           homeVedioCollectionTitleTv, homeVedioCollectionVideoSinger1Tv,
           homeVedioCollectionVideoSinger2Tv, homeVedioCollectionVideoSinger3Tv,
           homeVedioCollectionVideoTitle1Tv, homeVedioCollectionVideoTitle2Tv,
-          homeVedioCollectionVideoTitle3Tv, homeViewPager1Iv, homeViewPager2Iv);
+          homeVedioCollectionVideoTitle3Tv, homeViewPager2Iv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

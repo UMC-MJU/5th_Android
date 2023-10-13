@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\AndroidStudioProjects\\5th_Android\\Week2flo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+            "outputFile": "C:\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\박승연\\.gradle\\caches\\transforms-3\\d721e7cd1e5b3901f296b4957c874d12\\transformed\\appcompat-1.4.0\\res\\values-fi\\values-fi.xml",

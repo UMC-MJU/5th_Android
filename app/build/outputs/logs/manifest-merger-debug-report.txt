@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\박승연\.gradle\caches\transforms-3\0c5d22bb6ad9c3e02656601711fda789\transformed\jetified-viewbinding-7.0.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\박승연\.gradle\caches\transforms-3\d1db3675c85ee06c674c006ff3faf6b9\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\박승연\.gradle\caches\transforms-3\3749a8323d7aaf7a100f73cd7f56a44a\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -46,25 +46,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\박승연\.gradl
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\박승연\.gradle\caches\transforms-3\8d4d9e26f374c2ce7f7f6111f9766ef0\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\박승연\.gradle\caches\transforms-3\296e0119bcbc062c4af8e6b06156e056\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\박승연\.gradle\caches\transforms-3\7efccda17a22444e90209d22dad9bffc\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:3:5-30
-		INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:5:5-25:19
+ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\박승연\.gradle\caches\transforms-3\3749a8323d7aaf7a100f73cd7f56a44a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\박승연\.gradle\caches\transforms-3\3749a8323d7aaf7a100f73cd7f56a44a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\박승연\.gradle\caches\transforms-3\f29dd05cd242ffaf93d60ca4ec46f101\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
@@ -82,43 +82,43 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\박승연\.gradle\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\박승연\.gradle\caches\transforms-3\97fdf6ac3f77473932941ea1e7168741\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:11:9-41
 activity#com.example.flo.MainActivity
-ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:9-20:20
 	android:exported
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:14:13-36
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.example.flo.SongActivity
-ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:21:9-24:20
+ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:21:9-24:20
 	android:exported
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml:22:13-41
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:22:13-41
 uses-sdk
-INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
-INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
+INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\박승연\.gradle\caches\transforms-3\0c5d22bb6ad9c3e02656601711fda789\transformed\jetified-viewbinding-7.0.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\박승연\.gradle\caches\transforms-3\0c5d22bb6ad9c3e02656601711fda789\transformed\jetified-viewbinding-7.0.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\박승연\.gradle\caches\transforms-3\d1db3675c85ee06c674c006ff3faf6b9\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
@@ -203,16 +203,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\박승연\.gradle\caches\trans
 MERGED from [androidx.print:print:1.0.0] C:\Users\박승연\.gradle\caches\transforms-3\296e0119bcbc062c4af8e6b06156e056\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\박승연\.gradle\caches\transforms-3\7efccda17a22444e90209d22dad9bffc\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\박승연\.gradle\caches\transforms-3\7efccda17a22444e90209d22dad9bffc\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
-INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
+INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
-		ADDED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\AndroidStudioProjects\5th_Android\Week2flo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\박승연\.gradle\caches\transforms-3\2991ed4accefa8f0202f61612efcc4d5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\박승연\.gradle\caches\transforms-3\3f361b245c16380da4819bfc59eab2b6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20

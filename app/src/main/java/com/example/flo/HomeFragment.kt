@@ -37,6 +37,26 @@ class HomeFragment : Fragment() {
                 .commitAllowingStateLoss()
         }
 
+        val bannerAdapter=BannerVPAdapter(this)
+        //fragment 두 개 넣음
+        bannerAdapter.addFragment(BannerFragment(R.drawable.img_home_viewpager_exp))
+        bannerAdapter.addFragment(BannerFragment(R.drawable.img_home_viewpager_exp2))
+        //view pager와 adapter 연결
+        binding.homeBannerVp.adapter=bannerAdapter
+        binding.homeBannerVp.orientation= ViewPager2.ORIENTATION_HORIZONTAL //움직일 방향 지정
+
+        val pannelAdapter=BannerVPAdapter(this)
+        pannelAdapter.addFragment(PannelFragment(R.drawable.img_first_album_default))
+        pannelAdapter.addFragment(PannelFragment(R.drawable.img_first_album_default))
+        binding.homePannelBackgroundVp.adapter=pannelAdapter
+        binding.homeBannerVp.orientation= ViewPager2.ORIENTATION_HORIZONTAL
+        //indicator 추가
+        val indicator:CircleIndicator3=binding.homeIndicator
+        indicator.setViewPager(binding.homeBannerVp)
+//        indicator.createIndicators(2,0)
+//        indicator.animatePageSelected(2)
+//        pannelAdapter.registerAdapterDataObserver(indicator.adapterDataObserver)
+
         return binding.root
     }
 }
