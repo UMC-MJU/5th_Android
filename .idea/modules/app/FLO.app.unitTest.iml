@@ -74,8 +74,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6299f238541424ce12d9281dda599d46/transformed/jetified-annotation-experimental-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/e2ad0e2a831d52fa7beb2f5852e405e5/transformed/constraintlayout-2.1.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7c571dc187fa4ce92900907f5471591f/transformed/jetified-circleindicator-2.1.6-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../Android/platforms/android-31/android.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../Android/build-tools/30.0.2/core-lambda-stubs.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../Android/platforms/android-31/android.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../Android/build-tools/30.0.2/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugUnitTest" />
