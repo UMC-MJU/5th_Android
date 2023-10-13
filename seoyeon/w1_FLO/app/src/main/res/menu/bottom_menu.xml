@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFrag"
+        android:title="홈"
+        android:icon="@drawable/house_btn" />
+    <item
+        android:id="@+id/lookFrag"
+        android:title="둘러보기"
+        android:icon="@drawable/look_btn" />
+    <item
+        android:id="@+id/searchFrag"
+        android:title="검색"
+        android:icon="@drawable/search_btn"/>
+    <item
+        android:id="@+id/storeFrag"
+        android:title="보관"
+        android:icon="@drawable/store_btn"/>
+</menu>
