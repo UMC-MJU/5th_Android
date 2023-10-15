@@ -108,7 +108,7 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ImageView homeSnsBtnYoutubeIv;
 
   @NonNull
-  public final LinearLayout homeSnsBtnlayoutLo;
+  public final LinearLayout homeSnsBtnlayoutLayout;
 
   @NonNull
   public final ImageView homeTodayNewMusicAlbum1Iv;
@@ -201,7 +201,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       @NonNull NestedScrollView homeRecommendPotcastSv,
       @NonNull TextView homeRecommendPotcastTitleTv, @NonNull ImageView homeSnsBtnFacebookIv,
       @NonNull ImageView homeSnsBtnInstagramIv, @NonNull ImageView homeSnsBtnTwitterIv,
-      @NonNull ImageView homeSnsBtnYoutubeIv, @NonNull LinearLayout homeSnsBtnlayoutLo,
+      @NonNull ImageView homeSnsBtnYoutubeIv, @NonNull LinearLayout homeSnsBtnlayoutLayout,
       @NonNull ImageView homeTodayNewMusicAlbum1Iv, @NonNull ImageView homeTodayNewMusicAlbum2Iv,
       @NonNull ImageView homeTodayNewMusicAlbum3Iv,
       @NonNull TextView homeTodayNewMusicAlbumtSinger1Tv,
@@ -252,7 +252,7 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.homeSnsBtnInstagramIv = homeSnsBtnInstagramIv;
     this.homeSnsBtnTwitterIv = homeSnsBtnTwitterIv;
     this.homeSnsBtnYoutubeIv = homeSnsBtnYoutubeIv;
-    this.homeSnsBtnlayoutLo = homeSnsBtnlayoutLo;
+    this.homeSnsBtnlayoutLayout = homeSnsBtnlayoutLayout;
     this.homeTodayNewMusicAlbum1Iv = homeTodayNewMusicAlbum1Iv;
     this.homeTodayNewMusicAlbum2Iv = homeTodayNewMusicAlbum2Iv;
     this.homeTodayNewMusicAlbum3Iv = homeTodayNewMusicAlbum3Iv;
@@ -474,9 +474,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.home_snsBtnlayout_lo;
-      LinearLayout homeSnsBtnlayoutLo = ViewBindings.findChildViewById(rootView, id);
-      if (homeSnsBtnlayoutLo == null) {
+      id = R.id.home_snsBtnlayout_layout;
+      LinearLayout homeSnsBtnlayoutLayout = ViewBindings.findChildViewById(rootView, id);
+      if (homeSnsBtnlayoutLayout == null) {
         break missingId;
       }
 
@@ -634,7 +634,7 @@ public final class FragmentHomeBinding implements ViewBinding {
           homeRecommendPotcastAlbumTitle1Iv, homeRecommendPotcastAlbumTitle2Iv,
           homeRecommendPotcastAlbumTitle3Iv, homeRecommendPotcastSv, homeRecommendPotcastTitleTv,
           homeSnsBtnFacebookIv, homeSnsBtnInstagramIv, homeSnsBtnTwitterIv, homeSnsBtnYoutubeIv,
-          homeSnsBtnlayoutLo, homeTodayNewMusicAlbum1Iv, homeTodayNewMusicAlbum2Iv,
+          homeSnsBtnlayoutLayout, homeTodayNewMusicAlbum1Iv, homeTodayNewMusicAlbum2Iv,
           homeTodayNewMusicAlbum3Iv, homeTodayNewMusicAlbumtSinger1Tv,
           homeTodayNewMusicAlbumtSinger2Tv, homeTodayNewMusicAlbumtSinger3Tv,
           homeTodayNewMusicAlbumtTitle1Tv, homeTodayNewMusicAlbumtTitle2Tv,

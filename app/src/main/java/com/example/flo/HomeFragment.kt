@@ -51,11 +51,7 @@ class HomeFragment : Fragment() {
         binding.homePannelBackgroundVp.adapter=pannelAdapter
         binding.homeBannerVp.orientation= ViewPager2.ORIENTATION_HORIZONTAL
         //indicator 추가
-        val indicator:CircleIndicator3=binding.homeIndicator
-        indicator.setViewPager(binding.homeBannerVp)
-//        indicator.createIndicators(2,0)
-//        indicator.animatePageSelected(2)
-//        pannelAdapter.registerAdapterDataObserver(indicator.adapterDataObserver)
+        binding.homeIndicator.setViewPager(binding.homePannelBackgroundVp)
 
         return binding.root
     }

@@ -1841,6 +1841,7 @@ drawable ic_bottom_look_select
 drawable ic_bottom_search_no_select
 drawable ic_bottom_search_select
 drawable ic_clock_black_24dp
+drawable ic_flo_logo
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1904,6 +1905,7 @@ drawable nugu_btn_repeat_inactive
 drawable nugu_btn_skip_next_32
 drawable nugu_btn_skip_previous_32
 drawable purple_radius
+drawable splash
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2153,7 +2155,7 @@ id home_snsBtnFacebook_iv
 id home_snsBtnInstagram_iv
 id home_snsBtnTwitter_iv
 id home_snsBtnYoutube_iv
-id home_snsBtnlayout_lo
+id home_snsBtnlayout_layout
 id home_todayNewMusicAlbum1_iv
 id home_todayNewMusicAlbum2_iv
 id home_todayNewMusicAlbum3_iv
@@ -3103,6 +3105,7 @@ style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year
 style ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox
 style ShapeAppearanceOverlay_TopLeftCut
 style ShapeAppearanceOverlay_TopRightDifferentCornerSize
+style SplashTheme
 style Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day
 style Test_Theme_MaterialComponents_MaterialCalendar
 style Test_Widget_MaterialComponents_MaterialCalendar

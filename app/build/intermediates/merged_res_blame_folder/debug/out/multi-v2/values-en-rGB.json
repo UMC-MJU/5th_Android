@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "C:\\AndroidStudioProjects\\5th_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\박승연\\.gradle\\caches\\transforms-3\\3749a8323d7aaf7a100f73cd7f56a44a\\transformed\\material-1.4.0\\res\\values-en-rGB\\values-en-rGB.xml",
